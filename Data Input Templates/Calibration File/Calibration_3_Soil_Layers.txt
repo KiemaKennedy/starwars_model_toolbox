@@ -1,0 +1,69 @@
+## Structure of a Calibration File for a soil profile with 3 Depths
+
+## Note that empty lines and lines starting '#' or '##' symbols are ignored.
+
+## KEEP the variable names as they are. Changing them will lead to an error
+
+## You can add more for each depending on your soil layers.
+
+
+## Soil Depth
+# Define the soil depth values
+ld1	0.24
+ld2	0.58
+ld3	0.25
+
+## Root Fraction
+# Description here
+rf1	0.6
+rf2	0.2
+rf3	0.05
+#rf4 0.05 #example for additional soil layers
+
+## Saturated VWC
+# Description here
+thetasat1	0.24
+thetasat2	0.48
+thetasat3	1.11
+thetasatbc	0.08
+
+## Hydraulic Conductivity
+# Description here
+ksat0	0.621
+ksat1	0.621
+ksat2	0.0144
+ksat3	0.0144
+ksatbc	0.0144
+
+## Mechanical Properties
+# Description here
+gammadry1	20
+gammadry2	20
+gammadry3	20
+
+## Air Entry
+# Description here
+ha1	0.10
+ha2	0.15
+ha3	0.23
+habc	0.23
+
+## Shape Factor
+# Description here
+alpha1	4.14
+alpha2	6.52
+alpha3	6.52
+alphabc	6.52
+
+## Residual VWC
+# Description here
+thetares1	0.05
+thetares2	0.2
+thetares3	0.2
+thetaresbc	0.2
+
+## Initial VWC
+# Description here
+thetaini1	0.1
+thetaini2	0.45
+thetaini3	0.51
